@@ -10,4 +10,4 @@ yarn build:frontend
 
 # Next features
 
-# [] DB with MongoDB and account list
+ - [] DB with MongoDB and account list
