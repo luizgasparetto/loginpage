@@ -59,8 +59,8 @@ function validatePassword(password: HTMLInputElement, rpassword: HTMLInputElemen
 }
 
 function sendForm(form: HTMLFormElement): boolean {
-  let send = true
+  let sendFlag = true
   const wrongInputs = form.querySelectorAll('.' + SHOW_ERROR_MESSAGES)
-  wrongInputs.forEach(() => send = false)
-  return send
+  wrongInputs.forEach(() => sendFlag = false)
+  return sendFlag
 }
